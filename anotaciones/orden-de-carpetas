@@ -1,0 +1,41 @@
+portfoliowise-ai/
+├── client/               # Next.js (frontend)
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   └── utils/
+│   ├── .env.local
+│   ├── next.config.js
+│   └── package.json
+│
+├── server/               # Express API (backend)
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── utils/
+│   ├── .env
+│   ├── index.js
+│   └── package.json
+│
+├── db/                   # Base de datos y migraciones
+│   ├── migrations/
+│   ├── seeders/
+│   └── schema.sql
+│
+├── scripts/              # Scripts de automatización (deploy, backups…)
+│   └── deploy.sh
+│
+├── .github/              # Configuración de GitHub Actions
+│   └── workflows/
+│       └── ci-cd.yml
+│
+├── docs/                 # Documentación del proyecto
+│   └── arquitectura.md
+│
+├── .gitignore
+├── README.md
+└── package.json          # Si unificas scripts de monorepo (opcional)
